@@ -59,7 +59,7 @@ const Calendar = () => {
           borderRadius="4px"
         >
           <Typography variant="h5">Events</Typography>
-          <List>
+          {/* <List>
             {currentEvents.map((event) => (
               <ListItem
                 key={event.id}
@@ -83,7 +83,9 @@ const Calendar = () => {
                 />
               </ListItem>
             ))}
-          </List>
+          </List> */}
+          <List>{console.log(currentEvents)}</List>
+          
         </Box>
 
         {/* Календар */}
